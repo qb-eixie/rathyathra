@@ -9,13 +9,20 @@
     height: 95dvw;
 }
     
+h4 {
+    margin-top: -8dvw;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 8vw;
+}
 
 #aa0 {
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     color: orangered;
     margin-bottom: -4vh;
-    font-size: 4.5dvw;
+    font-size: 4dvw;
+    font-weight: 600;
 }
 
 #aa1 {
@@ -56,11 +63,11 @@
 #bbb { 
     background-color: rgb(223, 70, 0);
     width: 100dvw;
-    margin-left: -2dvw;
+    margin-left: -2.1dvw;
     margin-top: -2dvh;
     padding-top: 0.3vh;
-    height: 42vh;
-    
+    height: 120dvw;
+    text-align: center;
 }
 
 #bb0 {
@@ -77,6 +84,12 @@
     background:  white;
 }
 #bb0:hover {
+    color: rgb(0, 0, 0);
+    color: rgb(250, 250, 250);
+}
+
+.pm {
     color: white;
-    background: rgb(226, 2, 2);
+    margin-top: -1dvw;
+    margin-bottom: -1dvw;
 }
