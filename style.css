@@ -4,9 +4,9 @@
     margin-top: -2dvh;
     padding-top: 0.3vh;
     padding-bottom: 5vh;
-    background: rgb(244,157,0);
-    background: linear-gradient(117deg, rgba(244,157,0,1) 0%, rgb(255, 187, 0) 100%); 
-    height: 35vh;
+    /* background: rgb(244,157,0);
+    background: linear-gradient(117deg, rgba(244,157,0,1) 0%, rgb(255, 187, 0) 100%);  */
+    height: 43vh;
 }
     
 
@@ -27,9 +27,9 @@
 }
  
 #aa2 {
-    font-size: 4dvw;
+    font-size: 4.5dvw;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 550;
+    font-weight: 590;
     margin-top: -2.5vh;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
@@ -40,5 +40,35 @@
     justify-self: center;
     text-align: center;
     width: 60vw;
-    background-color: orangered;   
+    background-color: rgb(235, 63, 0);   
+}
+
+#aa3 {
+    margin-top: 1vw;
+    position: absolute;
+    left: 13dvw;
+    padding-top: 4vw;
+    width: 72vw;
+    height: 53vw
+}
+
+#bbb { 
+    background-color: rgb(223, 70, 0);
+    width: 100dvw;
+    margin-left: -2dvw;
+    margin-top: -2dvh;
+    padding-top: 0.3vh;
+    height: 42vh;
+    
+}
+
+#bb0 {
+    position: absolute;
+    left: 28%;
+    text-decoration: none;
+    color: white;
+}
+
+#bb0:hover {
+    background-color: black;
 }
