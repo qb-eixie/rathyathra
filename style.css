@@ -74,17 +74,19 @@ h4 {
 }
 
 .bb0 {
+    margin-top: 10dvw;
     padding-top: 1.5vw;
-    padding-bottom: 1.5vw;
-    padding-right: 5vw;
-    padding-left: 5vw;
+    padding-bottom: 2vw;
+    padding-right: 7vw;
+    padding-left: 7vw;
     border-radius: 1vw;
-    font-weight: 600;
+    font-weight: 800;
     position: absolute;
     left: 29dvw;
     text-decoration: none;
     color: rgb(0, 0, 0);
     background:  white;
+    border-width: 2dvw;
 }
 
 .bb0:hover {
