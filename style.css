@@ -121,6 +121,23 @@
     #road {
         width: 90dvw;
     }
+
+    
+    #in {
+        display: inline-flex;
+    }
+
+    #out {
+        padding-top: 1dvw;
+        padding-bottom: 0.5dvw;
+        overflow-y: scroll;
+    }
+
+    .imgs {
+        height: 53dvw;
+        margin-left: 1dvw;
+    }
+    
     
 }
 
@@ -204,7 +221,7 @@
         margin-left: -1.7dvw;
         margin-top: -2dvh;
         padding-top: 0.3vh;
-        height: 110dvw;
+        height: 112dvw;
         text-align: center;
     }
     
@@ -246,6 +263,22 @@
     #road {
         width: 90dvw;
     }
+
+    #in {
+        display: inline-flex;
+    }
+
+    #out {
+        padding-top: 1dvw;
+        padding-bottom: 0.5dvw;
+        overflow-y: scroll;
+    }
+
+    .imgs {
+        height: 65dvw;
+        margin-left: 1dvw;
+    }
+    
     
 }
 
@@ -328,7 +361,7 @@
         margin-left: -1dvw;
         margin-top: -2dvh;
         padding-top: 0.3vh;
-        height: 117dvw;
+        height: 92dvw;
         text-align: center;
     }
     
@@ -370,6 +403,21 @@
     #road {
         height: 60vw;
         width: 90dvw;
+    }
+    
+    #in {
+        display: inline-flex;
+    }
+
+    #out {
+        padding-top: 1dvw;
+        padding-bottom: 0.5dvw;
+        overflow-y: scroll;
+    }
+
+    .imgs {
+        height: 25dvw;
+        margin-left: 1dvw;
     }
     
 }
