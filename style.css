@@ -1,4 +1,5 @@
 
+
 @media  only screen and (max-width: 445px) {
     #aaa {
         width: 100dvw;
@@ -8,16 +9,15 @@
         padding-bottom: 5vh;
         /* background: rgb(244,157,0);
         background: linear-gradient(117deg, rgba(244,157,0,1) 0%, rgb(255, 187, 0) 100%);  */
-        height: 103dvw;
+        height: 115dvw;
     }
-        
+    
     h4 {
         margin-top: -8dvw;
         text-align: center;
         font-size: 3vw;
         margin-bottom: 9vw;
     }
-    
     #aa0 {
         text-align: center;
         font-family:'Times New Roman', Times, serif;
@@ -32,9 +32,9 @@
         font-family:'Times New Roman', Times, serif;
         color: rgb(255, 72, 0);
         font-size: 12dvw;
-    
+        
     }
-     
+    
     #aa2 {
         font-size: 4dvw;
         font-family: 'Times New Roman', Times, serif;
@@ -59,17 +59,25 @@
         left: 2dvw;
         padding-top: 4vw;
         width: 95vw;
-        height: 62dvw;
+        height: 65dvw;
+    }
+    
+    #aa4 {
+        font-size: 5dvw;
+        text-align: center;
+        margin-top: 80dvw;
+        font-weight: 700;
+        color:  maroon;
     }
     
     #bbb { 
         font-family: sans-serif;
         font-size: 3.5dvw;
-        font-weight: bold;
+        font-weight: 700;
         background: rgb(244,157,0);background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
-        color: rgb(49, 49, 49);
-        width: 100dvw;
-        margin-left: -3dvw;
+        color: rgb(34, 34, 34);
+        width: 100.2dvw;
+        margin-left: -2.5dvw;
         margin-top: -2dvh;
         padding-top: 0.3vh;
         height: 130dvw;
@@ -123,7 +131,7 @@
         margin-top: -2dvh;
         padding-top: 0.3vh;
         padding-bottom: 5vh;
-        height: 103dvw;
+        height: 118dvw;
 
     }
         
@@ -177,14 +185,22 @@
         width: 95vw;
         height: 62dvw;
     }
-    
+ 
+    #aa4 {
+        font-size: 5dvw;
+        text-align: center;
+        margin-top: 80dvw;
+        font-weight: 700;
+        color:  maroon;
+    }
+
     #bbb { 
         font-family: sans-serif;
-        font-size: 2.5dvw;
+        font-size: 2.7dvw;
         font-weight: bold;
         background: rgb(244,157,0);background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
         color: rgb(49, 49, 49);
-        width: 101dvw;
+        width: 100.4dvw;
         margin-left: -1.7dvw;
         margin-top: -2dvh;
         padding-top: 0.3vh;
@@ -217,7 +233,8 @@
     }
     
     .bold {
-        font-weight: 700;
+
+        font-weight: 800;
         margin-bottom: -3dvw;
     }
     .pm {
@@ -227,6 +244,131 @@
     }
     
     #road {
+        width: 90dvw;
+    }
+    
+}
+
+
+@media  only screen and (min-width: 810px) and (max-width: 5000px) {
+    #aaa {
+        width: 100dvw;
+        margin-left: -2dvw;
+        margin-top: -2dvh;
+        padding-top: 0.3vh;
+        padding-bottom: 5vh;
+        height: 83dvw;
+
+    }
+    
+    #aa0 {
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        color: orangered;
+        margin-bottom: -18vh;
+        font-size: 2dvw;
+        font-weight: 600;
+        color: black;
+    }
+        
+    h4 {
+        margin-top: -9dvw;
+        text-align: center;
+        font-size: 2vw;
+        margin-bottom: 9vw;
+    }
+    
+    #aa1 {
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(255, 72, 0);
+        font-size: 12dvw;
+    }
+     
+    #aa2 {
+        font-size: 2dvw;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 0.9vw;
+        font-weight: 600;
+        margin-top: -7vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0.9vw;
+        position: absolute;
+        left: 35%;
+        justify-content: center;
+        justify-self: center;
+        text-align: center;
+        width: 30vw;
+        color:  white;
+        background-color: rgb(235, 63, 0);   
+    }
+    
+    #aa3 {
+        position: absolute;
+        left: 8dvw;
+        width: 85vw;
+        height: 40dvw;
+    }
+ 
+    #aa4 {
+        font-size: 5dvw;
+        text-align: center;
+        margin-top: 50dvw;
+        font-weight: 700;
+        color:  maroon;
+    }
+
+    #bbb { 
+        font-family: sans-serif;
+        font-size: 2.5dvw;
+        font-weight: bold;
+        background: rgb(244,157,0);background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+        color: rgb(49, 49, 49);
+        width: 100.4dvw;
+        margin-left: -1dvw;
+        margin-top: -2dvh;
+        padding-top: 0.3vh;
+        height: 117dvw;
+        text-align: center;
+    }
+    
+
+    .bb0 {
+        font-size: 3.5dvw;
+        margin-top: 5dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        left: 25dvw;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb0:hover {
+        background-color: rgb(236, 108, 22);
+        color: black;
+    }
+    
+    .bold {
+        text-decoration: underline;
+        font-weight: 800;
+        margin-bottom: -3dvw;
+    }
+    .pm {
+        color: white;
+        margin-top: -0.01dvw;
+        margin-bottom: -0.01dvw;
+    }
+    
+    #road {
+        height: 60vw;
         width: 90dvw;
     }
     
