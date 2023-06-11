@@ -6,14 +6,14 @@
     padding-bottom: 5vh;
     /* background: rgb(244,157,0);
     background: linear-gradient(117deg, rgba(244,157,0,1) 0%, rgb(255, 187, 0) 100%);  */
-    height: 95dvw;
+    height: 97dvw;
 }
     
 h4 {
     margin-top: -8dvw;
     text-align: center;
     font-size: 3vw;
-    margin-bottom: 8vw;
+    margin-bottom: 9vw;
 }
 
 #aa0 {
@@ -54,23 +54,26 @@ h4 {
 #aa3 {
     margin-top: 1vw;
     position: absolute;
-    left: 5.1dvw;
+    left: 2dvw;
     padding-top: 4vw;
-    width: 90vw;
-    height: 60dvw
+    width: 95vw;
+    height: 62dvw
 }
 
 #bbb { 
-    background-color: rgb(223, 70, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4dvw;
+    background: rgb(244,157,0);background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    color: rgb(49, 49, 49);
     width: 100dvw;
-    margin-left: -2.1dvw;
+    margin-left: -2dvw;
     margin-top: -2dvh;
     padding-top: 0.3vh;
     height: 120dvw;
     text-align: center;
 }
 
-#bb0 {
+.bb0 {
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
     padding-right: 5vw;
@@ -78,18 +81,28 @@ h4 {
     border-radius: 1vw;
     font-weight: 600;
     position: absolute;
-    left: 22vw;
+    left: 29dvw;
     text-decoration: none;
-    color: rgb(255, 72, 0);
+    color: rgb(0, 0, 0);
     background:  white;
 }
-#bb0:hover {
-    color: rgb(0, 0, 0);
-    color: rgb(250, 250, 250);
+
+.bb0:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
 }
 
+.bold {
+    font-weight: 700;
+    margin-bottom: -3dvw;
+}
 .pm {
     color: white;
-    margin-top: -1dvw;
-    margin-bottom: -1dvw;
+    margin-top: -0.01dvw;
+    margin-bottom: -0.01dvw;
 }
+
+#road {
+    width: 90dvw;
+}
+
