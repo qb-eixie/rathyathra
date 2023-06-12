@@ -1,6 +1,4 @@
-
-
-@media  only screen and (max-width: 445px) {
+@media  only screen and (max-width: 800px) {
     #aaa {
         width: 100dvw;
         margin-left: -2dvw;
@@ -321,7 +319,7 @@
     }
 
     #cc0 {
-        width: 90dvw;
+        width: 101dvw;
         left: -3dvw;
         color: white;
         background: rgb(224,16,0);
@@ -330,152 +328,13 @@
         font-size: 9dvw;
         font-weight: 700;
         font-family: 'Times New Roman', Times, serif;
-        margin: 3dvw;
+        margin-left: -2dvw;
+        margin-bottom: -0.3dvw;
+        margin-top: -0.1dvw;
     }
     .imgs {
         height: 60dvw;
         margin-left: 2dvw;
-    }
-    
-    
-}
-
-@media  only screen and (min-width: 446px) and (max-width: 800px) {
-    #aaa {
-        width: 100dvw;
-        margin-left: -2dvw;
-        margin-top: -2dvh;
-        padding-top: 0.3vh;
-        padding-bottom: 5vh;
-        height: 118dvw;
-
-    }
-        
-    h4 {
-        margin-top: -8dvw;
-        text-align: center;
-        font-size: 3vw;
-        margin-bottom: 9vw;
-    }
-    
-    #aa0 {
-        text-align: center;
-        font-family:'Times New Roman', Times, serif;
-        color: orangered;
-        margin-bottom: -4vh;
-        font-size: 4dvw;
-        font-weight: 600;
-    }
-    
-    #aa1 {
-        text-align: center;
-        font-family:'Times New Roman', Times, serif;
-        color: rgb(255, 72, 0);
-        font-size: 12dvw;
-    
-    }
-     
-    #aa2 {
-        font-size: 4dvw;
-        font-family: 'Times New Roman', Times, serif;
-        border-radius: 0.5vh;
-        font-weight: 600;
-        margin-top: -2.5vh;
-        padding-top: 0.5vw;
-        padding-bottom: 0.9vw;
-        position: absolute;
-        left: 20%;
-        justify-content: center;
-        justify-self: center;
-        text-align: center;
-        width: 60vw;
-        color:  white;
-        background-color: rgb(235, 63, 0);   
-    }
-    
-    #aa3 {
-        margin-top: 1vw;
-        position: absolute;
-        left: 2dvw;
-        padding-top: 4vw;
-        width: 95vw;
-        height: 62dvw;
-    }
- 
-    #aa4 {
-        font-size: 5dvw;
-        text-align: center;
-        margin-top: 80dvw;
-        font-weight: 700;
-        color:  maroon;
-    }
-
-    #bbb { 
-        font-family: sans-serif;
-        font-size: 2.7dvw;
-        font-weight: bold;
-        background: rgb(244,157,0);background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
-        color: rgb(49, 49, 49);
-        width: 100.4dvw;
-        margin-left: -1.7dvw;
-        margin-top: -2dvh;
-        padding-top: 0.3vh;
-        height: 112dvw;
-        text-align: center;
-    }
-    
-
-    .bb0 {
-        font-size: 4.5dvw;
-        margin-top: 7dvw;
-        padding-top: 1.5vw;
-        padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
-        font-weight: 800;
-        left: 22dvw;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        background:  white;
-        border-radius: 2vw;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    .bb0:hover {
-        background-color: rgb(236, 108, 22);
-        color: black;
-    }
-    
-    .bold {
-
-        font-weight: 800;
-        margin-bottom: -3dvw;
-    }
-    .pm {
-        color: white;
-        margin-top: -0.01dvw;
-        margin-bottom: -0.01dvw;
-    }
-    
-    #road {
-        position: relative;
-        width: 90dvw;
-    }
-
-    #in {
-        display: inline-flex;
-    }
-
-    #out {
-        padding-top: 1dvw;
-        padding-bottom: 0.5dvw;
-        overflow-y: scroll;
-    }
-
-    .imgs {
-        height: 65dvw;
-        margin-left: 1dvw;
     }
     
     
@@ -489,7 +348,7 @@
         margin-top: -2dvh;
         padding-top: 0.3vh;
         padding-bottom: 5vh;
-        height: 83dvw;
+        height: 95dvw;
 
     }
     
@@ -539,13 +398,13 @@
         position: absolute;
         left: 8dvw;
         width: 85vw;
-        height: 40dvw;
+        height: 50dvw;
     }
  
     #aa4 {
         font-size: 5dvw;
         text-align: center;
-        margin-top: 50dvw;
+        margin-top: 60dvw;
         font-weight: 700;
         color:  maroon;
     }
@@ -557,16 +416,17 @@
         background: rgb(244,157,0);background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
         color: rgb(49, 49, 49);
         width: 100.4dvw;
-        margin-left: -1dvw;
+        margin-left: -0.5dvw;
         margin-top: -2dvh;
         padding-top: 0.3vh;
-        height: 180dvw;
+        height: 135dvw;
         text-align: center;
     }
     
 
     .bb0 {
-        font-size: 3.5dvw;
+        width: 14vw;
+        font-size: 1.2dvw;
         margin-top: 5dvw;
         padding-top: 1.5vw;
         padding-bottom: 2vw;
@@ -574,11 +434,11 @@
         padding-left: 7vw;
         font-weight: 800;
         position: absolute;
-        left: 25dvw;
+        left: 4dvw;
         text-decoration: none;
         color: rgb(0, 0, 0);
         background:  white;
-        border-radius: 2vw;
+        border-radius: 1vw;
         border-color: black;
         border-style: solid;
     }
@@ -588,45 +448,21 @@
         color: black;
     }
     
-
-    .bb0 {
-        font-size: 3.5dvw;
-        margin-top: 5dvw;
-        padding-top: 1.5vw;
-        padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
-        font-weight: 800;
-        position: absolute;
-        left: 25dvw;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        background:  white;
-        border-radius: 2vw;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    .bb0:hover {
-        background-color: rgba(2, 2, 2, 0.397);
-        color: black;
-    }
-    
-
     .bb1 {
-        font-size: 3.5dvw;
-        margin-top: 5dvw;
+        width: 18vw;
+        font-size: 1.2dvw;
+        left: 4dvw;
+        margin-top: 15dvw;
         padding-top: 1.5vw;
         padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
         font-weight: 800;
         position: absolute;
-        left: 25dvw;
         text-decoration: none;
         color: rgb(0, 0, 0);
         background:  white;
-        border-radius: 2vw;
+        border-radius: 1vw;
         border-color: black;
         border-style: solid;
     }
@@ -638,19 +474,20 @@
     
 
     .bb2 {
-        font-size: 3.5dvw;
-        margin-top: 5dvw;
+        width: 16vw;
+        font-size: 1.2dvw;
+        margin-top: 15dvw;
         padding-top: 1.5vw;
         padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
-        font-weight: 800;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        left: 35dvw;
         position: absolute;
-        left: 25dvw;
+        font-weight: 800;
         text-decoration: none;
         color: rgb(0, 0, 0);
         background:  white;
-        border-radius: 2vw;
+        border-radius: 1vw;
         border-color: black;
         border-style: solid;
     }
@@ -662,19 +499,21 @@
     
 
     .bb3 {
-        font-size: 3.5dvw;
+        height: 4dvw;
+        width: 20dvw;
+        font-size: 1.2dvw;
         margin-top: 5dvw;
-        padding-top: 1.5vw;
+        padding-top: 2vw;
         padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
         font-weight: 800;
         position: absolute;
-        left: 25dvw;
+        left: 65dvw;
         text-decoration: none;
         color: rgb(0, 0, 0);
         background:  white;
-        border-radius: 2vw;
+        border-radius: 1vw;
         border-color: black;
         border-style: solid;
     }
@@ -686,19 +525,21 @@
     
 
     .bb4 {
-        font-size: 3.5dvw;
-        margin-top: 5dvw;
-        padding-top: 1.5vw;
+        width: 20vw;
+        height: 4.3dvw;
+        font-size: 1.3dvw;
+        margin-top: 15dvw;
+        padding-top: 2vw;
         padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
         font-weight: 800;
         position: absolute;
-        left: 25dvw;
+        left: 65dvw;
         text-decoration: none;
         color: rgb(0, 0, 0);
         background:  white;
-        border-radius: 2vw;
+        border-radius: 1vw;
         border-color: black;
         border-style: solid;
     }
@@ -710,19 +551,20 @@
     
 
     .bb5 {
-        font-size: 3.5dvw;
+        width: 16dvw ;
+        font-size: 1.2dvw;
         margin-top: 5dvw;
         padding-top: 1.5vw;
         padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
         font-weight: 800;
         position: absolute;
-        left: 25dvw;
+        left: 35dvw;
         text-decoration: none;
         color: rgb(0, 0, 0);
         background:  white;
-        border-radius: 2vw;
+        border-radius: 1vw;
         border-color: black;
         border-style: solid;
     }
@@ -731,7 +573,57 @@
         background-color: rgba(2, 2, 2, 0.397);
         color: black;
     }
+
+
+    .bb6 {
+        width: 14dvw;
+        font-size: 1.2dvw;
+        margin-top: 25dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        left: 18dvw;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 1dvw;
+        border-color: black;
+        border-style: solid;
+    }
     
+    .bb6:hover {
+        background-color: rgba(2, 2, 2, 0.397);
+        color: black;
+    }
+    
+
+    .bb7 {
+        width: 18vw;
+        height: 5dvw;
+        font-size: 1.2dvw;
+        margin-top: 25dvw;
+        padding-bottom: 2vw;
+        padding-top: 1.5vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        font-weight: 800;
+        position: absolute;
+        left: 50dvw;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 1vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb7:hover {
+        background-color: rgba(2, 2, 2, 0.397);
+        color: black;
+    }
 
     .bold {
         text-decoration: underline;
@@ -745,6 +637,7 @@
     }
     
     #road {
+        margin-top: 42dvw;
         height: 60vw;
         width: 90dvw;
     }
@@ -759,9 +652,24 @@
         overflow-y: scroll;
     }
 
+    #cc0 {
+        width: 102dvw;
+        left: -2dvw;
+        color: white;
+        background: rgb(224,16,0);
+        background: linear-gradient(137deg, rgba(224,16,0,1) 0%, rgba(255,79,33,1) 48%, rgba(255,100,0,1) 100%); 
+        text-align: center;
+        font-size: 4dvw; 
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: -2dvw;
+        margin-bottom: -0.3dvw;
+        margin-top: -0.1dvw;
+    }
+
     .imgs {
         height: 25dvw;
         margin-left: 1dvw;
     }
     
-}
+} 
