@@ -75,24 +75,53 @@
         background: rgb(244,157,0);background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
         color: rgb(34, 34, 34);
         width: 100.2dvw;
-        margin-left: -2.5dvw;
+        margin-left: -2.2dvw;
         margin-top: -2dvh;
         padding-top: 0.3vh;
-        height: 130dvw;
+        height: 295dvw;
         text-align: center;
     }
     
 
     .bb0 {
-        font-size: 5dvw;
-        margin-top: 7dvw;
+        width: 80dvw;
+        height: 13dvw;
+        left: 2.3dvw;
+        padding-top: 3vw;
+        margin-top: 1dvw;
+        font-size: 4dvw;
+        padding-bottom: 2.3vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        border-color: black;
+        border-radius: 2vw;
+        border-style: solid;
+        background-blend-mode:difference;
+        background-color: white;
+    }
+    
+    .bb0:hover {
+        background-color: rgba(0, 0, 0, 0.637);
+        color: black;
+    }
+    
+
+    .bb1 {
+        width: 80dvw;
+        height: 13dvw;
+        left: 2.3dvw;
+        font-size: 4dvw;
+        margin-top: 23dvw;
         padding-top: 1.5vw;
         padding-bottom: 2vw;
         padding-right: 7vw;
         padding-left: 7vw;
         font-weight: 800;
         position: absolute;
-        left: 20dvw;
         text-decoration: none;
         color: rgb(0, 0, 0);
         background:  white;
@@ -101,11 +130,169 @@
         border-style: solid;
     }
     
-    .bb0:hover {
-        background-color: rgb(236, 108, 22);
+    .bb1:hover {
+        background-color: rgba(0, 0, 0, 0.37);
         color: black;
     }
     
+
+    .bb2 {
+        width: 80dvw;
+        height: 13dvw;
+        left: 2.3dvw;
+        font-size: 4dvw;
+        margin-top: 43dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb2:hover {
+        background-color: rgba(0, 0, 0, 0.37);
+        color: black;
+    }
+    
+
+    .bb3 {
+        width: 80dvw;
+        height: 13dvw;
+        left: 2.3dvw;
+        font-size: 4dvw;
+        margin-top: 63dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb3:hover {
+        background-color: rgba(0, 0, 0, 0.37);
+        color: black;
+    }
+    
+
+    .bb4 {
+        width: 80dvw;
+        height: 13dvw;
+        left: 2.3dvw;
+        font-size: 4dvw;
+        margin-top: 83dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb4:hover {
+        background-color: rgba(0, 0, 0, 0.37);
+        color: black;
+    }
+    
+
+    .bb5 {
+        width: 80dvw;
+        height: 13dvw;
+        left: 2.3dvw;
+        font-size: 4dvw;
+        margin-top: 103dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb5:hover {
+        background-color: rgba(0, 0, 0, 0.37);
+        color: black;
+    }
+    
+
+    .bb6 {
+        width: 80dvw;
+        height: 13dvw;
+        left: 2.3dvw;
+        background-image: url("0.JPG");
+        font-size: 4dvw;
+        margin-top: 123dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb6:hover {
+        background-color: rgba(0, 0, 0, 0.37);
+        color: black;
+    }
+    
+
+    .bb7 {
+        width: 80dvw;
+        height: 13dvw;
+        left: 2.3dvw;
+        font-size: 4dvw;
+        margin-top: 143dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb7:hover {
+        background-color: rgba(0, 0, 0, 0.37);
+        color: black;
+    }
+
+
     .bold {
         font-weight: 700;
         margin-bottom: -3dvw;
@@ -117,6 +304,7 @@
     }
     
     #road {
+        margin-top: 165dvw;
         width: 90dvw;
     }
 
@@ -125,12 +313,25 @@
         display: inline-flex;
     }
 
+
     #out {
         padding-top: 2dvw;
         padding-bottom: 0.5dvw;
         overflow-y: scroll;
     }
 
+    #cc0 {
+        width: 90dvw;
+        left: -3dvw;
+        color: white;
+        background: rgb(224,16,0);
+        background: linear-gradient(137deg, rgba(224,16,0,1) 0%, rgba(255,79,33,1) 48%, rgba(255,100,0,1) 100%); 
+        text-align: center;
+        font-size: 9dvw;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 3dvw;
+    }
     .imgs {
         height: 60dvw;
         margin-left: 2dvw;
@@ -232,7 +433,6 @@
         padding-right: 7vw;
         padding-left: 7vw;
         font-weight: 800;
-        position: absolute;
         left: 22dvw;
         text-decoration: none;
         color: rgb(0, 0, 0);
@@ -259,6 +459,7 @@
     }
     
     #road {
+        position: relative;
         width: 90dvw;
     }
 
@@ -359,7 +560,7 @@
         margin-left: -1dvw;
         margin-top: -2dvh;
         padding-top: 0.3vh;
-        height: 92dvw;
+        height: 180dvw;
         text-align: center;
     }
     
@@ -383,10 +584,155 @@
     }
     
     .bb0:hover {
-        background-color: rgb(236, 108, 22);
+        background-color: rgba(2, 2, 2, 0.397);
         color: black;
     }
     
+
+    .bb0 {
+        font-size: 3.5dvw;
+        margin-top: 5dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        left: 25dvw;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb0:hover {
+        background-color: rgba(2, 2, 2, 0.397);
+        color: black;
+    }
+    
+
+    .bb1 {
+        font-size: 3.5dvw;
+        margin-top: 5dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        left: 25dvw;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb1:hover {
+        background-color: rgba(2, 2, 2, 0.397);
+        color: black;
+    }
+    
+
+    .bb2 {
+        font-size: 3.5dvw;
+        margin-top: 5dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        left: 25dvw;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb2:hover {
+        background-color: rgba(2, 2, 2, 0.397);
+        color: black;
+    }
+    
+
+    .bb3 {
+        font-size: 3.5dvw;
+        margin-top: 5dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        left: 25dvw;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb3:hover {
+        background-color: rgba(2, 2, 2, 0.397);
+        color: black;
+    }
+    
+
+    .bb4 {
+        font-size: 3.5dvw;
+        margin-top: 5dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        left: 25dvw;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb4:hover {
+        background-color: rgba(2, 2, 2, 0.397);
+        color: black;
+    }
+    
+
+    .bb5 {
+        font-size: 3.5dvw;
+        margin-top: 5dvw;
+        padding-top: 1.5vw;
+        padding-bottom: 2vw;
+        padding-right: 7vw;
+        padding-left: 7vw;
+        font-weight: 800;
+        position: absolute;
+        left: 25dvw;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background:  white;
+        border-radius: 2vw;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .bb5:hover {
+        background-color: rgba(2, 2, 2, 0.397);
+        color: black;
+    }
+    
+
     .bold {
         text-decoration: underline;
         font-weight: 800;
