@@ -42,15 +42,13 @@
         backdrop-filter: blur(10px);
         font-size: 4dvw;
         font-family: 'Times New Roman', Times, serif;
-        border-radius: 0.5vh;
+        border-radius: 1vw;
         font-weight: 600;
-        margin-top: -7vh;
+        margin-top: -2.4vh;
         padding-top: 0.5vw;
         padding-bottom: 0.9vw;
         position: absolute;
         left: 20%;
-        justify-content: center;
-        justify-self: center;
         text-align: center;
         width: 60vw;
         color:  rgb(250, 250, 250);
