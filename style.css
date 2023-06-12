@@ -1,11 +1,12 @@
 @media  only screen and (max-width: 800px) {
     #aaa {
+        background-image: url("d0.jpg");
         width: 100dvw;
         margin-left: -2dvw;
         margin-top: -2dvh;
         padding-top: 0.3vh;
         padding-bottom: 5vh;
-        height: 119dvw;
+        height: 129dvw;
     }
     
     h4 {
@@ -15,9 +16,15 @@
         margin-bottom: 9vw;
     }
     #aa0 {
+        color:  rgb(250, 250, 250);
+        background-color: rgba(2, 2, 2, 0.377);
+        margin-left: 45dvw;
+        padding-left: 2dvw;
+        padding-right: 2dvw;
+        border-radius: 0.6dvw;
         text-align: center;
+        width: max-content;
         font-family:'Times New Roman', Times, serif;
-        color: black;
         margin-bottom: -4vh;
         font-size: 4dvw;
         font-weight: 600;
@@ -26,17 +33,18 @@
     #aa1 {
         text-align: center;
         font-family:'Times New Roman', Times, serif;
-        color: rgb(255, 72, 0);
+        color: rgb(0, 0, 0);
         font-size: 12dvw;
         
     }
     
     #aa2 {
+        backdrop-filter: blur(10px);
         font-size: 4dvw;
         font-family: 'Times New Roman', Times, serif;
         border-radius: 0.5vh;
         font-weight: 600;
-        margin-top: -2.7vh;
+        margin-top: -3vh;
         padding-top: 0.5vw;
         padding-bottom: 0.9vw;
         position: absolute;
@@ -45,14 +53,14 @@
         justify-self: center;
         text-align: center;
         width: 60vw;
-        color:  white;
-        background-color: rgb(235, 63, 0);   
+        color:  rgb(250, 250, 250);
+        background-color: rgba(2, 2, 2, 0.377);   
     }
     
     #aa3 {
         margin-top: 1vw;
         position: absolute;
-        left: 2dvw;
+        left: 2.2dvw;
         padding-top: 4vw;
         width: 95vw;
         height: 65dvw;
@@ -63,234 +71,61 @@
         text-align: center;
         margin-top: 82dvw;
         font-weight: 700;
-        color:  maroon;
+        color:  rgb(56, 1, 1);
     }
     
     #bbb { 
         font-family: sans-serif;
         font-size: 3.5dvw;
         font-weight: 700;
-        background: rgb(244,157,0);background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+        background: rgb(244,157,0);background-image: linear-gradient(-60deg, #fc5454 0%, #f09819 100%);
         color: rgb(34, 34, 34);
         width: 100.2dvw;
         margin-left: -2.2dvw;
         margin-top: -2dvh;
-        padding-top: 0.3vh;
-        height: 295dvw;
+        padding-top: 2.5vh;
+        height: 62dvw;
         text-align: center;
     }
     
-
     .bb0 {
+        margin-left: 4.5dvw;
+        margin-right: 2dvw;
+        border-radius: 3dvw;
+        height: 69dvw;
+        padding-top: 5dvw;
+        backdrop-filter: blur(1dvw);
+        background-color: rgba(0, 0, 0, 0.3);
+        margin-bottom: 3dvw;
+    }
+    .bimg0 {
+        margin-left: 4.5dvw;
+        height: 50dvw;
         width: 80dvw;
-        height: 13dvw;
-        left: 2.3dvw;
-        padding-top: 3vw;
+    }
+    
+    .btext0 {
+        margin-left: 15dvw;
+        padding-left: 2dvw;
+        padding-right: 3dvw;
+        padding-top: 2dvw;
+        padding-bottom: 2dvw;
         margin-top: 1dvw;
+        width: 55dvw;
+        border-radius: 1dvw;
+        background-color: rgb(241, 174, 85);
+        text-align: center;
+        color: rgb(255, 255, 255);
         font-size: 4dvw;
-        padding-bottom: 2.3vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
-        font-weight: 800;
-        position: absolute;
         text-decoration: none;
-        color: black;
-        border-color: black;
-        border-radius: 2vw;
-        border-style: solid;
-        background-blend-mode:difference;
-        background-color: white;
+        font-weight: 700;
+        height: 10dvw;
     }
     
-    .bb0:hover {
-        background-color: rgba(0, 0, 0, 0.637);
-        color: black;
+    .btext0:hover {
+        background-color: rgb(92, 62, 18);
     }
     
-
-    .bb1 {
-        width: 80dvw;
-        height: 13dvw;
-        left: 2.3dvw;
-        font-size: 4dvw;
-        margin-top: 23dvw;
-        padding-top: 1.5vw;
-        padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
-        font-weight: 800;
-        position: absolute;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        background:  white;
-        border-radius: 2vw;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    .bb1:hover {
-        background-color: rgba(0, 0, 0, 0.37);
-        color: black;
-    }
-    
-
-    .bb2 {
-        width: 80dvw;
-        height: 13dvw;
-        left: 2.3dvw;
-        font-size: 4dvw;
-        margin-top: 43dvw;
-        padding-top: 1.5vw;
-        padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
-        font-weight: 800;
-        position: absolute;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        background:  white;
-        border-radius: 2vw;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    .bb2:hover {
-        background-color: rgba(0, 0, 0, 0.37);
-        color: black;
-    }
-    
-
-    .bb3 {
-        width: 80dvw;
-        height: 13dvw;
-        left: 2.3dvw;
-        font-size: 4dvw;
-        margin-top: 63dvw;
-        padding-top: 1.5vw;
-        padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
-        font-weight: 800;
-        position: absolute;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        background:  white;
-        border-radius: 2vw;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    .bb3:hover {
-        background-color: rgba(0, 0, 0, 0.37);
-        color: black;
-    }
-    
-
-    .bb4 {
-        width: 80dvw;
-        height: 13dvw;
-        left: 2.3dvw;
-        font-size: 4dvw;
-        margin-top: 83dvw;
-        padding-top: 1.5vw;
-        padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
-        font-weight: 800;
-        position: absolute;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        background:  white;
-        border-radius: 2vw;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    .bb4:hover {
-        background-color: rgba(0, 0, 0, 0.37);
-        color: black;
-    }
-    
-
-    .bb5 {
-        width: 80dvw;
-        height: 13dvw;
-        left: 2.3dvw;
-        font-size: 4dvw;
-        margin-top: 103dvw;
-        padding-top: 1.5vw;
-        padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
-        font-weight: 800;
-        position: absolute;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        background:  white;
-        border-radius: 2vw;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    .bb5:hover {
-        background-color: rgba(0, 0, 0, 0.37);
-        color: black;
-    }
-    
-
-    .bb6 {
-        width: 80dvw;
-        height: 13dvw;
-        left: 2.3dvw;
-        background-image: url("0.JPG");
-        font-size: 4dvw;
-        margin-top: 123dvw;
-        padding-top: 1.5vw;
-        padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
-        font-weight: 800;
-        position: absolute;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        background:  white;
-        border-radius: 2vw;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    .bb6:hover {
-        background-color: rgba(0, 0, 0, 0.37);
-        color: black;
-    }
-    
-
-    .bb7 {
-        width: 80dvw;
-        height: 13dvw;
-        left: 2.3dvw;
-        font-size: 4dvw;
-        margin-top: 143dvw;
-        padding-top: 1.5vw;
-        padding-bottom: 2vw;
-        padding-right: 7vw;
-        padding-left: 7vw;
-        font-weight: 800;
-        position: absolute;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        background:  white;
-        border-radius: 2vw;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    .bb7:hover {
-        background-color: rgba(0, 0, 0, 0.37);
-        color: black;
-    }
-
-
     .bold {
         font-weight: 700;
         margin-bottom: -3dvw;
@@ -301,39 +136,42 @@
         margin-bottom: -0.01dvw;
     }
     
-    #road {
-        margin-top: 165dvw;
-        width: 90dvw;
+    #rd {
+        margin-left: -1.8dvw;
+        width: 100dvw;
     }
 
     
     #in {
         display: inline-flex;
     }
-
-
+    
+    
     #out {
         padding-top: 2dvw;
         padding-bottom: 0.5dvw;
         overflow-y: scroll;
     }
-
+    
+    #ccc {
+        padding-top: 5dvw;
+        background-image: url('d2.jpg');
+    }
+    
     #cc0 {
-        width: 101dvw;
         left: -3dvw;
-        color: white;
-        background: rgb(224,16,0);
-        background: linear-gradient(137deg, rgba(224,16,0,1) 0%, rgba(255,79,33,1) 48%, rgba(255,100,0,1) 100%); 
+        color: rgb(0, 0, 0);
         text-align: center;
-        font-size: 9dvw;
+        font-size: 20dvw;
         font-weight: 700;
         font-family: 'Times New Roman', Times, serif;
         margin-left: -2dvw;
         margin-bottom: -0.3dvw;
         margin-top: -0.1dvw;
     }
+    
     .imgs {
-        height: 60dvw;
+        height: 100dvw;
         margin-left: 2dvw;
     }
     
@@ -424,7 +262,7 @@
     }
     
 
-    .bb0 {
+    .bb1 {
         height: 5dvw;
         width: 14vw;
         font-size: 1.2dvw;
@@ -449,7 +287,7 @@
         color: black;
     }
     
-    .bb1 {
+    .bb2 {
         width: 18vw;
         font-size: 1.2dvw;
         left: 4dvw;
@@ -474,7 +312,7 @@
     }
     
 
-    .bb2 {
+    .bb3 {
         width: 16vw;
         font-size: 1.2dvw;
         margin-top: 15dvw;
@@ -499,7 +337,7 @@
     }
     
 
-    .bb3 {
+    .bb4 {
         height: 4dvw;
         width: 20dvw;
         font-size: 1.2dvw;
@@ -525,12 +363,13 @@
     }
     
 
-    .bb4 {
+    .bb5 {
         width: 20vw;
         height: 4.3dvw;
         font-size: 1.3dvw;
         margin-top: 15dvw;
-        padding-top: 2vw;
+        padding-top: 2vw; rotate(20deg);
+    }
         padding-bottom: 2vw;
         padding-right: 5vw;
         padding-left: 5vw;
@@ -551,7 +390,7 @@
     }
     
 
-    .bb5 {
+    .bb6 {
         width: 16dvw ;
         font-size: 1.2dvw;
         margin-top: 5dvw;
@@ -576,7 +415,7 @@
     }
 
 
-    .bb6 {
+    .bb7 {
         width: 14dvw;
         font-size: 1.2dvw;
         margin-top: 25dvw;
@@ -596,32 +435,6 @@
     }
     
     .bb6:hover {
-        background-color: rgba(2, 2, 2, 0.397);
-        color: black;
-    }
-    
-
-    .bb7 {
-        width: 18vw;
-        height: 5dvw;
-        font-size: 1.2dvw;
-        margin-top: 25dvw;
-        padding-bottom: 2vw;
-        padding-top: 1.5vw;
-        padding-right: 5vw;
-        padding-left: 5vw;
-        font-weight: 800;
-        position: absolute;
-        left: 50dvw;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        background:  white;
-        border-radius: 1vw;
-        border-color: black;
-        border-style: solid;
-    }
-    
-    .bb7:hover {
         background-color: rgba(2, 2, 2, 0.397);
         color: black;
     }
