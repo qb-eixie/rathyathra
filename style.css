@@ -99,12 +99,19 @@
         margin-bottom: 3dvw;
     }
     .bimg0 {
+        border-style: solid;
+        border-color: black;
+        border-width: 0.02dvw;
+        border-radius: 1.5dvw;
         margin-left: 4.5dvw;
         height: 50dvw;
         width: 80dvw;
     }
     
     .btext0 {
+        border-style: solid;
+        border-width: 0.5dvw;
+        border-color: black;
         margin-left: 15dvw;
         padding-left: 2dvw;
         padding-right: 3dvw;
@@ -112,7 +119,7 @@
         padding-bottom: 2dvw;
         margin-top: 1dvw;
         width: 55dvw;
-        border-radius: 1dvw;
+        border-radius: 1.5dvw;
         background-color: rgb(241, 174, 85);
         text-align: center;
         color: rgb(255, 255, 255);
@@ -123,7 +130,7 @@
     }
     
     .btext0:hover {
-        background-color: rgb(92, 62, 18);
+        background-color: rgb(3, 2, 0);
     }
     
     .bold {
@@ -169,10 +176,14 @@
         margin-bottom: -0.3dvw;
         margin-top: -0.1dvw;
     }
-
+    
     .imgs {
-        height: 100dvw;
+        height: 200dvw;
         margin-left: 2dvw;
+    }
+    
+    #ddd {
+        color: black;   
     }
     
     
