@@ -82,20 +82,21 @@
         width: 100.2dvw;
         margin-left: -2.2dvw;
         margin-top: -2dvh;
-        padding-top: 3vh;
+        padding-top: 1.5vh;
         height: 62dvw;
         text-align: center;
     }
     
     .bb0 {
-        margin-left: 4.5dvw;
-        margin-right: 2dvw;
+        margin-left: 4dvw;
+        margin-right: 3.5dvw;
         border-radius: 3dvw;
         height: 69dvw;
         padding-top: 5dvw;
-        backdrop-filter: blur(1dvw);
+        backdrop-filter:blur(1dvw);
         background-color: rgba(0, 0, 0, 0.3);
-        margin-bottom: 3dvw;
+        margin-bottom: 7dvw;
+        padding-bottom: 1dvw;
     }
     .bimg0 {
         border-style: solid;
@@ -124,8 +125,8 @@
         color: rgb(255, 255, 255);
         font-size: 4dvw;
         text-decoration: none;
-        font-weight: 700;
         height: 10dvw;
+        font-weight: 700;
     }
     
     .btext0:hover {
@@ -143,7 +144,7 @@
     }
     
     #rd {
-        margin-left: -1.8dvw;
+        margin-left: -2dvw;
         width: 100dvw;
     }
 
@@ -162,8 +163,11 @@
     }
     
     #ccc {
+        margin-top: -2dvw;
         padding-top: 5dvw;
-        background-image: url('d2.jpg');
+        width: 100dvw;
+        margin-left: -2dvw;
+        background-image: url('d2.jpg')
     }
     
     #d {
@@ -172,9 +176,10 @@
         background: rgba(245, 222, 179, 0.781);
         text-align: center;
         font-size: 6dvw;
+        border-radius: 1dvw;
         font-weight: 700;
         font-family: 'Times New Roman', Times, serif;
-        margin-left: 13dvw ;
+        margin-left: 10dvw ;
         padding-top: 1dvw;
         padding-bottom: 1dvw;
         padding-left: 12dvw;
